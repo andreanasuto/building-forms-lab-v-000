@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 
 class BandInput extends Component {
 
+  constructor () {
+    super()
+    this.handleChange = this.handleChange.bind(this);
+  }
+
   render() {
     return (
       <div>
