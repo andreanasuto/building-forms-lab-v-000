@@ -11,13 +11,15 @@ class BandInput extends Component {
   }
 
   handleChange(event) {
-    this.setState({text: event.target.value});
+    this.setState({
+      text: event.target.value
+    });
   }
 
   render() {
     return (
       <div>
-        <input type="text" onKeyDown={this.handleChange}/>
+        <input type="text" value={this.state.value} onKeyDown={this.handleChange} />
       </div>
     );
   }
