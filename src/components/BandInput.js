@@ -19,7 +19,7 @@ class BandInput extends Component {
   render() {
     return (
       <div>
-        <input type="text" value={this.state.value} onKeyDown={this.handleChange} />
+        <input type="text" value={this.state.text} onChange={this.handleChange} />
       </div>
     );
   }
