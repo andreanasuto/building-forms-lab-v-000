@@ -4,7 +4,7 @@ class BandInput extends Component {
   render() {
     return (
       <div>
-        <Band />
+        <input type="text"/>
       </div>
     );
   }
