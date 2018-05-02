@@ -5,7 +5,7 @@ class BandInput extends Component {
   render() {
     return (
       <div>
-        <input type="text"/>
+        <input type="text" onkeydown={this.handleChange}/>
       </div>
     );
   }
