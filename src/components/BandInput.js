@@ -16,6 +16,10 @@ class BandInput extends Component {
     });
   }
 
+  handleSubmit(event) {
+    
+  }
+
   render() {
     return (
       <div>
