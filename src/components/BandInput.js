@@ -5,6 +5,9 @@ class BandInput extends Component {
   constructor () {
     super()
     this.handleChange = this.handleChange.bind(this);
+    this.state = {
+      text: ''
+    }
   }
 
   handleChange(event) {
