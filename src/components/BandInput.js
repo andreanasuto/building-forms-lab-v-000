@@ -5,6 +5,8 @@ class BandInput extends Component {
   constructor () {
     super()
     this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+
     this.state = {
       text: ''
     }
@@ -18,6 +20,7 @@ class BandInput extends Component {
 
   handleSubmit(event) {
     event.preventDefault()
+
   }
 
   render() {
